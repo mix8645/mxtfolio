@@ -1,0 +1,91 @@
+body{
+    background:linear-gradient(#2c0e5cb2,#3268dbc9);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 ,h2{
+    font-family: verdana;
+    font-size: 280%;
+    color: rgb(236, 196, 196);
+    text-align: center;
+}
+p {
+    font-family: courier;
+    font-size: 120%;
+    color: white;
+    text-align: center;
+}
+table{
+    width:50%;
+    border: 1px solid #000000;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid #000000;
+    background-color: #eb8cf8c4;
+    padding: 8px;
+}
+td {
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: #86fcd596;
+    padding: 8px;
+}
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+a:hover, a:active {
+    background-color: rgba(65, 108, 248, 0.425);    
+}
+header{
+    top: 0;
+    font-size: 200%;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    color:#9b0cc7;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+.imgcenter {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.logoface{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: block;
+    box-shadow: 0px 0px 10px #666; 
+    z-index: 2;
+}
+.logoig{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 30%;
+    display: block;
+    box-shadow: 0px 0px 15px #666; 
+    z-index: 2;
+}
+hr{
+    display:block;
+    border-style: inset;
+    border-width: 3px;
+}
